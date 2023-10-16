@@ -19,7 +19,7 @@
     --border: var(--base-400);
     --input: var(--base-400);
 
-    --primary: var(--primary-500);
+    --primary: 21, 13, 94;
     --primary-foreground: 0 0% 100%; /* white */
  
     --secondary: 222.2 47.4% 11.2%;
@@ -34,12 +34,15 @@
     --info: var(--info-400);
     --info-foreground: var(--info-950);
 
-    --success:  var(--success-500);
+    --success:  var(--success-600);
     --success-foreground: 0 0% 0%;
  
     --ring: var(--primary-500);
  
     --radius: 0.5rem;
+
+    --ft-title: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --ft-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
  
   [data-theme="dark"] {
@@ -51,6 +54,9 @@
  
     --secondary: 210 40% 98%;
     --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --success:  var(--success-400);
+    --success-foreground: 0 0% 100%;
   }
 
   [data-theme="auto"] {
@@ -63,7 +69,16 @@
    
       --secondary: 210 40% 98%;
       --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --success:  var(--success-400);
+      --success-foreground: 0 0% 100%;
     }
+  }
+
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-block: .5rem;
   }
 }
  
